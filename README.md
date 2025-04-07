@@ -2,6 +2,9 @@
 
 En este proyecto se trabajó el uso de HTML + CSS, más específicamente del uso de los selectores en CSS y propiedades de tamaño, color, formato tipográfico, medidas relativas y posicionamiento automático, de manera que se creó una organización de una simulación de página de panel introductorio al plan de gobierno sobre el ingreso solidario (de carácter meramente estético, sin ninguna funcionalidad o interactividad con el usuario, exceptuando la posibilidad de llenar campos en un formulario, aunque la información llenada allí no se guarda en ninguna base de datos ni se puede usar para ejecutar otros procedimientos) a partir de un conjunto de archivos preestablecidos y un video de muestra.
 
+**Recursos:** [https://drive.google.com/drive/folders/1QLBdT6aJ5_iCOYoBRRM4dCwIYsBJZKBx?usp=drive_link](https://drive.google.com/drive/folders/1QLBdT6aJ5_iCOYoBRRM4dCwIYsBJZKBx?usp=drive_link)<br/>
+**Video de muestra:** [https://drive.google.com/file/d/1eBoiJWL8yxGUpLOF60WDRsaKe2CRA1Bg/view?usp=drive_link](https://drive.google.com/file/d/1eBoiJWL8yxGUpLOF60WDRsaKe2CRA1Bg/view?usp=drive_link)
+
 |Tabla de contenidos|
 |--|
 |[¿Cómo ejecutar este archivo?](#Ejecucion)|
