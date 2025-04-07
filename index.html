@@ -1,12 +1,15 @@
 <!-- Ingreso Solidario - Filtro HTML -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ingreso Solidario</title>
     <link rel="stylesheet" href="./style/style.css"/>
+    <link rel="shortcut icon" href="./img/icon.ico" type="image/x-icon">
 </head>
+
 <body>
     <header class="header">
         <div class="header__container">
@@ -21,6 +24,54 @@
             </a>
         </div>
     </header>
+
+    <section class="section1">
+        <div class="section1__bg">
+            <div class="section1__formbg">
+                <form action="" method="post">
+                    <label class="section1__form--title">Consulta tu estado del Ingreso Solidario</label>
+                    <label class="section1__form--description">Por favor ingresa tus datos personales para revisar el estado de entrega de tu ingreso.</label>
+                    <label class="section1__form--doctypelabel" for="section1__form--doctype">Tipo de Documento</label>
+                    <select class="section1__form--doctype" name="section1__form--doctype">
+                        <option>Cédula de ciudadanía (CC)</option>
+                        <option>Registro civil (RC)</option>
+                        <option>Tarjeta de identidad (TI)</option>
+                        <option>Tarjeta de extranjería (TE)</option>
+                        <option>Cédula de extranjería (CE)</option>
+                        <option>Número de identificación tributaria (NIT)</option>
+                        <option>Pasaporte (PP)</option>
+                        <option>Permiso especial de permanencia (PEP)</option>
+                        <option>Documento de identificación extranjero (DIE)</option>
+                    </select>
+                    <label class="section1__form--docnolabel" for="section1__form--docno">Número de Documento</label>
+                    <input class="section1_form--docno" type="number"/>
+                    <label class="section1__form--firstnamelabel" for="section1__form--firstname">Primer Nombre</label>
+                    <input class="section1__form--firstname" type="text"/>
+                    <label class="section1__form--firstsurnamelabel" for="section1__form--firstsurname">Primer Apellido</label>
+                    <input class="section1__form--firstsurname" type="text"/>
+                    <label class="section1__form--datelabel" for="section1__form--date">Fecha de expedición del documento</label>
+                    <input class="section1__form--date" type="date"/>
+                    <label class="section1__form--phonenumberlabel" for="section1__form--phonenumber">Teléfono Móvil</label>
+                    <input class="section1__form--phonenumber" type="tel"/>
+                    <input class="section1__form--btn" type="button" value="Consultar"/>
+                </form>
+            </div>
+            <div class="section1__knowmore">
+                    <div class="section1__knowmore--title">
+                        <p>Ingreso Solidario</p>
+                    </div>
+                    <div class="section1__knowmore--description">
+                        <p>Debido a la situación generada por el COVID-19, el gobierno nacional aportará a las familias más afectadas y que no pertenezcan a ningún programa social, un subsidio por $160.000</p>
+                    </div>
+                    <a href="#">
+                        <div>
+                            <p>Conocer más</p>
+                        </div>
+                    </a>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
 <!-- Desarrollado por : Dante Salamanca Galvis - T.I: 1.097.498.423 -->
