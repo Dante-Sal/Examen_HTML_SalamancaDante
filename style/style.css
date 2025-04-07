@@ -82,6 +82,7 @@ body {
 .section1 .section1__bg {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 100vw;
     height: 52.08vmax;
     background: url(../img/bg.png);
@@ -95,7 +96,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 6vw;
     padding: 0 2.5vw;
     width: 27.5vw;
     height: 39vmax;
@@ -156,38 +156,40 @@ body {
 .section1 .section1__bg .section1__knowmore .section1__knowmore--btn div {
     display: inline-grid;
     margin-top: 1.5vw;
-    width: 10vw;
-    height: 2.3vw;
+    width: 10vmax;
+    height: 2.3vmax;
     color: #ffffff;
     font-size: 1vmax;
     font-family: 'Myriad Pro Regular';
     text-align: center;
     background-color: #1573fd;
     border: 0;
-    border-radius: 0.7vw;
+    border-radius: 0.7vmax;
 }
 
 .section1 .section1__bg .section1__knowmore {
-    width: 30vw;
-    align-self: center;
-    background-color: beige;
+    width: 40vw;
+    height: 25vmax;
+    padding: 4vw;
 }
 
 .section1 .section1__bg .section1__knowmore .section1__knowmore--title, 
 .section1 .section1__bg .section1__knowmore .section1__knowmore--description {
+    margin: 0vw;
     color: #000000;
-    font-size: 2.5vmax;
+    font-size: 3vmax;
     font-family: 'Myriad Pro Light';
     text-align: center;
 }
 
 .section1 .section1__bg .section1__knowmore .section1__knowmore--description {
-    font-size: 1.3vmax;
+    font-size: 1.8vmax;
 }
 
 .section1 .section1__bg .section1__knowmore .section1__knowmore--btn {
     display: inline-grid;
-    /*width: ;*/
+    justify-content: center;
+    width: 40vw;
     text-decoration: none;
 }
 
