@@ -21,10 +21,13 @@
 
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 .header {
     position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,4 +75,123 @@ body {
     border-radius: 1.9vw;
 }
 
+.section1 {
+    margin-top: 6vmax;
+}
+
+.section1 .section1__bg {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 52.08vmax;
+    background: url(../img/bg.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1 .section1__bg .section1__formbg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6vw;
+    padding: 0 2.5vw;
+    width: 27.5vw;
+    height: 39vmax;
+    background-color: #ffffff;
+    border-radius: 1vw;
+}
+
+.section1 .section1__bg .section1__formbg .section1__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 .section1__bg .section1__formbg .section1__form .section1__form--title {
+    margin: 0.15vw 0;
+    width: 22vw;
+    color: #000000;
+    font-size: 2vmax;
+    font-family: 'Myriad Pro Regular';
+    text-align: center;
+}
+
+.section1 .section1__bg .section1__formbg .section1__form .section1__form--description {
+    margin: 0.15vw 0;
+    width: 24vw;
+    color: #000000;
+    font-size: 0.8vmax;
+    font-family: 'Myriad Pro Regular';
+    text-align: center;
+}
+
+.section1 .section1__bg .section1__formbg .section1__form label {
+    margin: 0.15vw 0;
+    width: 27.5vw;
+    color: #000000;
+    font-size: 0.85vmax;
+    font-family: 'Myriad Pro Semibold';
+    text-align: left;
+}
+
+.section1 .section1__bg .section1__formbg .section1__form input, 
+.section1 .section1__bg .section1__formbg .section1__form select {
+    margin: 0.15vw 0;
+    padding: 0.5vw;
+    width: 26.5vw;
+    color: #9e9e9e;
+    font-size: 0.73vmax;
+    font-family: 'Myriad Pro Regular';
+    text-align: left;
+}
+
+.section1 .section1__bg .section1__formbg .section1__form select {
+    width: 27.5vw;
+}
+
+.section1 .section1__bg .section1__formbg .section1__form .section1__form--btn, 
+.section1 .section1__bg .section1__knowmore .section1__knowmore--btn div {
+    display: inline-grid;
+    margin-top: 1.5vw;
+    width: 10vw;
+    height: 2.3vw;
+    color: #ffffff;
+    font-size: 1vmax;
+    font-family: 'Myriad Pro Regular';
+    text-align: center;
+    background-color: #1573fd;
+    border: 0;
+    border-radius: 0.7vw;
+}
+
+.section1 .section1__bg .section1__knowmore {
+    width: 30vw;
+    align-self: center;
+    background-color: beige;
+}
+
+.section1 .section1__bg .section1__knowmore .section1__knowmore--title, 
+.section1 .section1__bg .section1__knowmore .section1__knowmore--description {
+    color: #000000;
+    font-size: 2.5vmax;
+    font-family: 'Myriad Pro Light';
+    text-align: center;
+}
+
+.section1 .section1__bg .section1__knowmore .section1__knowmore--description {
+    font-size: 1.3vmax;
+}
+
+.section1 .section1__bg .section1__knowmore .section1__knowmore--btn {
+    display: inline-grid;
+    /*width: ;*/
+    text-decoration: none;
+}
+
+.section1 .section1__bg .section1__knowmore .section1__knowmore--btn div p {
+    margin: auto;
+}
 /* Desarrollado por : Dante Salamanca Galvis - T.I: 1.097.498.423 */
