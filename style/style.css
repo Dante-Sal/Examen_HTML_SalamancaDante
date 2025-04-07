@@ -174,7 +174,9 @@ body {
 }
 
 .section1 .section1__bg .section1__knowmore .section1__knowmore--title, 
-.section1 .section1__bg .section1__knowmore .section1__knowmore--description {
+.section1 .section1__bg .section1__knowmore .section1__knowmore--description, 
+.section2 .section2__title, 
+.section2 .section2__content .section2__description {
     margin: 0vw;
     color: #000000;
     font-size: 3vmax;
@@ -195,5 +197,19 @@ body {
 
 .section1 .section1__bg .section1__knowmore .section1__knowmore--btn div p {
     margin: auto;
+}
+
+.section2 .section2__title {
+    font-size: 2.5vmax;
+}
+
+.section2 .section2__content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section2 .section2__content .section2__description {
+    width: 35vw;
+    font-size: 1.5vmax;
 }
 /* Desarrollado por : Dante Salamanca Galvis - T.I: 1.097.498.423 */
